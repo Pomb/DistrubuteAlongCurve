@@ -1,0 +1,20 @@
+# Python cache files generated when running Blender
+# -------------------------------------------------
+*__pycache__*
+
+# Blender files
+# --------------------
+*.blend
+*.blend1
+*.blend2
+
+# Scripts that are not portable
+# -----------------------------
+scripts/__debug__.py
+scripts/__debug__.sh
+blendenv.bat
+blendenv.sh
+
+# CLI import .blend output
+# ------------------------
+src/testing/*.blend
